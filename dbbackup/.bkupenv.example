@@ -1,0 +1,20 @@
+## ホスト
+targethost=localhost
+
+## DB情報
+dbuser=root
+dbpassword=root
+
+targetdb=condb
+
+## 保存ファイル名
+filename=savemysql
+
+## 格納ディレクトリ
+archivedir=./dbbackup
+
+## バックアップ保持数
+## 日次
+daily_count=3
+weekly_count=0
+monthly_count=0
